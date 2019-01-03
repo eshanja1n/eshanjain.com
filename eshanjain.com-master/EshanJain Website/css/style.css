@@ -128,7 +128,7 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible; }
-
+/*
 a {
   color: #4664c3;
   text-decoration: none;
@@ -136,7 +136,7 @@ a {
 
 a:hover, a:focus {
   color: #86dbc1;
-  text-decoration: none; }
+  text-decoration: none; }*/
 
 img {
   vertical-align: middle;
@@ -168,8 +168,8 @@ h1, h2, h3, h4, h5, h6 {
   content: "/\00a0"; }
 
 
-/* ====================== Restaurant Listing ====================== */
-#restaurants-list {
+/* ====================== project Listing ====================== */
+#projects-list {
   list-style: outside none none;
   margin: 0;
   padding: 30px 15px 60px;
@@ -178,28 +178,28 @@ h1, h2, h3, h4, h5, h6 {
   flex-wrap: wrap;
   justify-content: center; }
 
-.restaurant-details-container {
+.project-details-container {
   padding: 0 0.5em;
   text-align: center; }
 
-#restaurants-list li {
+#projects-list li {
   background-color: #f8f8f9;
   border: 2px solid #535353;
   margin: 15px;
-  min-height: 380px;
+  min-height: 500px;
   text-align: left;
-  width: 270px; }
+  width: 370px; }
 
-#restaurants-list .restaurant-img {
+#projects-list .project-img {
   background-color: #ccc;
   display: block;
   margin: 0;
-  max-width: 100%;
-  min-height: 248px;
+  max-width: 100%;  
+  max-height: 200px;
   min-width: 100%;
   object-fit: cover; }
 
-#restaurants-list li h2 {
+#projects-list li h2 {
   font-size: 14pt;
   letter-spacing: 0;
   line-height: 1.3;
@@ -210,15 +210,15 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   text-overflow: ellipsis; }
 
-#restaurants-list p {
-  margin: 0;
+#projects-list p {
+ margin: 0;
   font-size: 11pt;
-  text-align: left;
-  white-space: nowrap;
+  text-align: center;
+  /*white-space: nowrap;*/
   overflow: hidden;
   text-overflow: ellipsis; }
-
-#restaurants-list li a {
+/*
+#projects-list li a{
   background-color: #000;
   color: #FFFFFF;
   display: inline-block;
@@ -229,14 +229,14 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   text-transform: uppercase; }
 
-#restaurants-list li a:hover {
+#projects-list li a:hover {
   color: #86dbc1; }
 
-#restaurants-list li a:focus {
+#projects-list li a:focus {
   outline-color: #86dbc1; }
+*/
 
-
-#restaurant-name {
+#project-name {
   font-size: 20pt;
   font-weight: 300;
   letter-spacing: 0;
@@ -244,7 +244,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   line-height: 1.1; }
 
-#restaurant-img {
+#project-img {
   width: 100%;
   background-size: cover;
   border-top-left-radius: 2em;
@@ -252,7 +252,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-#restaurant-container, #reviews-container {
+#project-container, #reviews-container {
   /* border-bottom: 1px solid #d9d9d9; */
   /* border-top: 1px solid #fff; */
   /* padding: 140px 40px 30px; */
@@ -351,7 +351,7 @@ button:hover:not(:disabled), [role='button']:hover:not(:disabled), input[type='s
   }
 
   a {
-    color: white;
+    color: rgba(2, 23, 37, 0.7);
     text-decoration: none;
   }
 
@@ -363,7 +363,7 @@ button:hover:not(:disabled), [role='button']:hover:not(:disabled), input[type='s
   .cd-container {
     /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
     width: 90%;
-    max-width: 768px;
+    /*max-width: 768px;*/
     margin: 0 auto;
   }
   .cd-container:after {
@@ -750,7 +750,7 @@ button:hover:not(:disabled), [role='button']:hover:not(:disabled), input[type='s
   }
   @media only screen and (min-width: 1170px) {
     .cd-intro {
-      height: 700px;
+      height: 450px;
     }
   }
 
